@@ -1,0 +1,5 @@
+Niezgodnie z treœci¹ zadania repo nazywa siê:
+SDA_Java_repetition
+
+URL:
+https://github.com/TheOoku/SDA_Java_repetition
