@@ -2,7 +2,7 @@ package Day01.Ex1;
 
 public class Engine {
 
-    public int nameModulo (String name){
+    int nameModulo (String name){
         //String name = "Jan Ul";
 
         NameDigitalisation nameDigitalisation = new NameDigitalisation();

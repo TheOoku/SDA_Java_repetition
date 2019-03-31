@@ -47,9 +47,10 @@ public class NameDigitalisation {
             }
         }
 
-        for (int i = 0; i < letterArray.length; i++) {
+        // for dev-testing purposes
+        /*for (int i = 0; i < letterArray.length; i++) {
             System.out.print("Litera: " + letterArray[i] + " ma wartość: " + digitsArray[i] + "\n");
-        }
+        }*/
 
         return digitsArray;
     }
