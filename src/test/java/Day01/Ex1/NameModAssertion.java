@@ -7,7 +7,7 @@ import org.junit.*;
 public class NameModAssertion {
 
     @Test
-    public void janNametest(){
+    public void janNameTest(){
         //given
         String testName = "Jan Ul";
         Engine engine = new Engine();
@@ -21,7 +21,7 @@ public class NameModAssertion {
     }
 
     @Test
-    public void hubertNametest(){
+    public void hubertNameTest(){
         //given
         String testName = "Hubert Lisiecki";
         Engine engine = new Engine();
@@ -35,9 +35,9 @@ public class NameModAssertion {
     }
 
     @Test
-    public void ilonaNametest(){
+    public void martaNameTest(){
         //given
-        String testName = "Ilona Baran";
+        String testName = "Marta Baran";
         Engine engine = new Engine();
         int expValue = 1;
 

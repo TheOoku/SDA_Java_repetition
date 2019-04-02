@@ -4,7 +4,7 @@ public class Start {
 
     public static void main(String[] args) {
         Engine start = new Engine();
-        start.nameModulo("Jan Ul");
+        start.nameModulo("Marta Baran");
 
     }
 
