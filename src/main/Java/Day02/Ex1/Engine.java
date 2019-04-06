@@ -7,6 +7,7 @@ public class Engine {
 
     @Deprecated
     int getBirthDate(String pesel){
+    /*
         char[] peselChar = pesel.toCharArray();
         int[] peselInt = new int[6];
         int currentYear = 2019;
@@ -18,6 +19,7 @@ public class Engine {
         int yearOfBirth = 1900 + peselInt[0] * 10 + peselInt[1];
         int daysFromYear = (currentYear - yearOfBirth);
 
+    */
         return 0;
     }
 
@@ -29,7 +31,7 @@ public class Engine {
             dateOfBirth.append(peselChar[i]);
 
             if (i == 1 || i == 3){
-                dateOfBirth.append("-");    // date format yy-MM-dd
+                dateOfBirth.append("-");    // date format yyyy-MM-dd
             }
         }
 
